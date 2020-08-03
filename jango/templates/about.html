@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>hello</h1>
+    <p>aboiyts</p>
+
+    <h1>no safe: {{ html }} </h1>    
+    <h1>safe: {{ html|safe }} </h1>    
+
+    <p>
+        {{text}}
+    </p>
+
+    <ul>
+    {% for item in list %}
+        <li> {{ item }} </li>
+    {% endfor %}
+    </ul>
+        
+{% endblock %}
