@@ -1,2 +1,2 @@
 # Django-Sandbox
-Experiment
+Experimenting with Django
